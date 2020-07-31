@@ -19,10 +19,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "co.viec.app.demo"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
-    }
+    },
+    "android": {
+      "package": "co.viec.app.demo"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }
